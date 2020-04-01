@@ -686,6 +686,7 @@
             <!-- Required claims -->
   
             <OutputClaim ClaimTypeReferenceId="objectId" />
+            <OutputClaim ClaimTypeReferenceId="alternativeSecurityId" />
 
             <!-- Optional claims -->
             <OutputClaim ClaimTypeReferenceId="userPrincipalName" />
