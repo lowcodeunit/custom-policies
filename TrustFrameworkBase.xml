@@ -664,6 +664,7 @@
           </PersistedClaims>
           <OutputClaims>
             <OutputClaim ClaimTypeReferenceId="objectId" />
+            <OutputClaim ClaimTypeReferenceId="alternativeSecurityId" />
             <OutputClaim ClaimTypeReferenceId="newUser" PartnerClaimType="newClaimsPrincipalCreated" />
             <!-- The following other mails claim is needed for the case when a user is created, we get otherMails from directory. Self-asserted provider also has an
                  OutputClaims, and if this is absent, Self-Asserted provider will prompt the user for otherMails. -->
@@ -965,6 +966,8 @@
             <InputClaim ClaimTypeReferenceId="signInName" />
           </InputClaims>
           <OutputClaims>
+            <OutputClaim ClaimTypeReferenceId="alternativeSecurityId" />
+            <OutputClaim ClaimTypeReferenceId="identityProvider" />
             <OutputClaim ClaimTypeReferenceId="signInName" Required="true" />
             <OutputClaim ClaimTypeReferenceId="password" Required="true" />
             <OutputClaim ClaimTypeReferenceId="objectId" />
