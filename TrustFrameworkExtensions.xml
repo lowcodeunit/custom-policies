@@ -37,8 +37,8 @@
       <TechnicalProfiles>
         <TechnicalProfile Id="login-NonInteractive">
           <Metadata>
-            <Item Key="client_id">"change to proxy app id"</Item>
-            <Item Key="IdTokenAudience">"change to app id"</Item>
+            <Item Key="client_id">f81785ab-a6dc-4a99-83f7-1a3a6f5134f5</Item>
+            <Item Key="IdTokenAudience">3d14d8cf-5611-484d-836f-5ae2d299cb6b</Item>
           </Metadata>
           <InputClaims>
             <InputClaim ClaimTypeReferenceId="client_id" DefaultValue="ProxyIdentityExperienceFrameworkAppId" />
