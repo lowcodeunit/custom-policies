@@ -13,7 +13,6 @@
     <PolicyId>B2C_1A_TrustFrameworkBase</PolicyId>
   </BasePolicy>
  <BuildingBlocks>
-
   </BuildingBlocks>
 
   <ClaimsProviders>
@@ -41,8 +40,8 @@
             <Item Key="IdTokenAudience">3d14d8cf-5611-484d-836f-5ae2d299cb6b</Item>
           </Metadata>
           <InputClaims>
-            <InputClaim ClaimTypeReferenceId="client_id" DefaultValue="ProxyIdentityExperienceFrameworkAppId" />
-            <InputClaim ClaimTypeReferenceId="resource_id" PartnerClaimType="resource" DefaultValue="IdentityExperienceFrameworkAppId" />
+            <InputClaim ClaimTypeReferenceId="client_id" DefaultValue="f81785ab-a6dc-4a99-83f7-1a3a6f5134f5" />
+            <InputClaim ClaimTypeReferenceId="resource_id" PartnerClaimType="resource" DefaultValue="3d14d8cf-5611-484d-836f-5ae2d299cb6b" />
           </InputClaims>
         </TechnicalProfile>
       </TechnicalProfiles>
